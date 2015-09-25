@@ -1,0 +1,202 @@
+body{
+	width: 100%;
+	margin-top: 0;
+    background-color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    height: inherit;
+}
+
+#container{
+	margin:0 auto;
+	float: left;
+	background-color: #428bca;
+	padding: 0px;
+}
+
+.title{
+	font-size: 1.3em;
+}
+
+.title:hover{
+	color: #000;
+}
+
+#migrate h1{
+	width: 10%;
+	float: left;
+	color: #fff;
+	margin-left: .5em;
+	margin-top: 15px;
+}
+
+.authenticate{
+	margin-top: 1.25em;
+	float: right;
+	font-size: 1.2em;
+	padding-right: 1.75em;
+	color: #fff;
+}
+
+.authenticate:hover{
+	color: #fff;
+	text-decoration: underline;
+}
+
+#content{
+	margin: 0 auto;
+	float: left;
+	background-color: #fff;
+	padding: 1em .5em 1.5em .5em;
+}
+
+.destination{
+	text-align: center;
+	height: 475px;
+	/*height: 300px;*/
+	padding-left: 0px;
+	padding-top: .5em;
+	width: 400px;
+}
+
+.destination a{
+	color: #000;
+	text-align: center;
+	float: left;
+}
+
+.destination img{
+	width: 100%;
+}
+
+.destination p{
+	text-align: left;
+	padding-top: .5em;
+	color: #000;
+	float: left;
+}
+
+#top{
+	float: left;
+}
+
+#top h2{
+	color: #000;
+	text-align: center;
+	float: left;
+}
+
+#top p{
+	text-align: center;
+	float: left;
+}
+
+#middle h4, #middle small{
+	text-align: center;
+}
+
+#addCommentForm textarea, #editCommentForm textarea{
+	margin-bottom: 1em;
+	width: 60%;
+	text-align: center;
+}
+
+#addCommentForm input, #editCommentForm input{
+	text-align: center;
+	float: none;
+	width: 30%;
+}
+
+#bottom{
+	float: left;
+}
+
+.commentList{
+	list-style: none;
+	float: left;
+}
+
+.commentList li{
+	float: left;
+	width: 100%;
+}
+
+.commentList p{
+	float: left;
+}
+
+.userCommented{
+	font-weight: bold;
+}
+
+.commentDate{
+	font-size: .85em;
+	font-style: italic;
+	margin-left: .3em;
+	margin-top: .25em;
+}
+
+.theComment{
+	margin-left: 3em;
+}
+
+.editCommentButton, .deleteCommentButton{
+	float: left;
+	width: 125px;
+	margin-left: 1em;
+}
+
+.editCommentButton input, .deleteCommentButton input{
+	float: left;
+	width: 125px;
+}
+
+#loginForm, #regForm{
+	float: left;
+	/*text-align: center;*/
+
+}
+
+#editPageForm h4{
+	text-align: center;
+}
+
+#loginForm h3, #regForm h3{
+	margin-left: 1em;
+}
+
+#loginForm p, #regForm p{
+	margin-left: 1.75em;
+}
+
+form{
+	text-align: center;
+	float: left;
+	width: 100%;
+	margin-top: .5em;
+}
+
+form label{
+	margin-bottom: 1em;
+	width: 35%;
+	float: left;
+}
+
+form input{
+	margin-bottom: 1em;
+	width: 50%;
+	float: left;
+}
+
+#logSubmit, #regSubmit{
+	text-align: center;
+	float: none;
+}
+
+#footer{
+	float: left;
+}
+
+.copyright{
+	margin: .75em 0px;
+	color: #fff;
+}
